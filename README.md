@@ -38,9 +38,9 @@ State numbers are plain averages, so a small agency counts the same as a big one
 Spending is not adjusted for how sick the patients are, so higher spending doesn't mean an agency is wasteful.
 Some small states and territories have very few agencies, so their numbers can swing a lot. For the full-service comparison I only used states with at least 20 agencies.
 
-home_health_analysis.sql	My SQL code (exploring, cleaning, and analyzing the data)
-Portfolio_Project.twbx	My Tableau dashboard. It uses data exported from the SQL results.
-dashboard_preview.png	Screenshot of the dashboard
+- home_health_analysis.sql	My SQL code (exploring, cleaning, and analyzing the data)
+- Portfolio_Project.twbx	My Tableau dashboard. It uses data exported from the SQL results.
+- dashboard_preview.png	Screenshot of the dashboard
 
 Tools
 SQL, Tableau
