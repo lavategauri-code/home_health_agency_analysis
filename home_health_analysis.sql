@@ -93,7 +93,7 @@ SELECT
 	COUNT(*) AS provider_count
 INTO #State_Ratings
 FROM #Home_Health
-WHERE TRY_CAST(Star_Rating AS FLOAT) IS NOT NULL
+WHERE TRY_CAST(Star_Rating AS FLOAT) >= 1
 GROUP BY State
 
 -- Average patient care rating by agency ownership type 
@@ -103,7 +103,7 @@ SELECT
 	COUNT(*) AS provider_count
 INTO #Ownership_Ratings
 FROM #Home_Health
-WHERE TRY_CAST(Star_Rating AS FLOAT) IS NOT NULL
+WHERE TRY_CAST(Star_Rating AS FLOAT) >= 1
 GROUP BY Type_Ownership
 
 SELECT *
@@ -119,7 +119,7 @@ SELECT
 	TRY_CAST(Star_Rating AS FLOAT) AS avg_rating
 INTO #Provider_Ratings
 FROM #Home_Health
-WHERE TRY_CAST(Star_Rating AS FLOAT) IS NOT NULL
+WHERE TRY_CAST(Star_Rating AS FLOAT) >= 1
 
 SELECT *
 FROM #Provider_Ratings
@@ -137,7 +137,7 @@ SELECT
 	COUNT(*) AS provider_count
 FROM #Home_Health
 WHERE TRY_CAST(Medicare_Spend_Index AS FLOAT)IS NOT NULL
-	AND TRY_CAST(Star_rating AS FLOAT) IS NOT NULL
+	AND TRY_CAST(Star_Rating AS FLOAT) >= 1
 GROUP BY State
 ORDER BY avg_spend_index DESC;
 
@@ -147,12 +147,12 @@ SELECT
 	Provider_Name, 
 	State,
 	Type_Ownership,
-	TRY_CAST(Medicare_Spend_Index AS FLOAT) AS MedicareSpendIndex,
-	TRY_CAST(Episode_Count AS FLOAT) AS EpisodeCount,
-	TRY_CAST(Star_rating AS FLOAT) AS StarRating
+	TRY_CAST(Medicare_Spend_Index AS FLOAT) AS Medicare_Spend_Index,
+	TRY_CAST(Episode_Count AS FLOAT) AS Episode_Count,
+	TRY_CAST(Star_rating AS FLOAT) AS Star_Rating
 FROM #Home_Health
 WHERE TRY_CAST(Medicare_Spend_Index AS FLOAT)IS NOT NULL
-	AND TRY_CAST(Star_rating AS FLOAT) IS NOT NULL
+	AND TRY_CAST(Star_Rating AS FLOAT) >= 1
 
 /* Home Health Services */
 
