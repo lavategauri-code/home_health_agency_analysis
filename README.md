@@ -28,11 +28,10 @@ What I did
 - Exported the results to Excel and used them to build the Tableau dashboard.
 
 What I found
-Ownership: Nonprofit agencies had the highest average rating (3.36 stars), then for-profit (3.27), then government-operated (2.85). The nonprofit and for-profit gap is small, and for-profit agencies are most of the data (6,087 agencies vs. 909 nonprofit). 849 agencies have no ownership type listed.
-Spending vs ratings: Spending and ratings don't seem to be connected. Agencies that cost Medicare more did not have better ratings.
-Spending by state: Kansas (1.065), Arkansas (1.058), and Nebraska (1.043) had the highest spending indexes. Among states with a lot of agencies, Oregon was lowest (0.875). Puerto Rico had the lowest overall (0.694), but with only 29 agencies.
-Full-service agencies: New Jersey had the highest share of agencies offering all six services (97.4%), followed by Mississippi (88.1%) and Rhode Island (81.8%). Delaware (31.8%), Minnesota (31.9%), and Pennsylvania (34.5%) had the lowest.
-Where the agencies are: California has the most agencies (3,213), then Texas (1,854) and Florida (1,146).
+- Ownership: Nonprofit agencies had the highest average rating (3.36 stars), then for-profit (3.27), then government-operated (2.85). For-profit agencies are most of the data (6,087 agencies vs. 909 nonprofit) and 849 agencies have no ownership type listed.
+- Spending vs ratings: Spending and ratings don't seem to be connected. Agencies that cost Medicare more did not have better ratings.
+- Spending by state: Kansas (1.065), Arkansas (1.058), and Nebraska (1.043) had the highest spending indexes. Among states with a lot of agencies, Oregon was lowest (0.875). Puerto Rico had the lowest overall (0.694), but with only 29 agencies.
+- Full-service agencies: New Jersey had the highest share of agencies offering all six services (97.4%), followed by Mississippi (88.1%) and Rhode Island (81.8%). Delaware (31.8%), Minnesota (31.9%), and Pennsylvania (34.5%) had the lowest.
 
 Limits of this analysis
 State numbers are plain averages, so a small agency counts the same as a big one.
