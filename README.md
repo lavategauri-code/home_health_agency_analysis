@@ -41,7 +41,7 @@ Some small states and territories have very few agencies, so their numbers can s
 
 Files 
 - home_health_analysis.sql	My SQL code (exploring, cleaning, and analyzing the data)
-- Portfolio_Project.twbx	My Tableau dashboard. It uses data exported from the SQL results.
+- home_health_analysis.twbx	My Tableau dashboard. It uses data exported from the SQL results.
 - dashboard_preview.png	Screenshot of the dashboard
 
 Tools
