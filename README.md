@@ -3,7 +3,8 @@ Home Health Agency Analysis
 For this project I looked at home health agencies in the US. I wanted to see how patient care ratings, Medicare spending, and the services agencies offer change across states and ownership types. 
 I used SQL to clean and analyze the data and Tableau to build the dashboard.
 
-<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/2bb82605-dbe7-465d-bdfa-01378b30e79f" />
+<<img width="959" height="539" alt="dashboard_preview" src="https://github.com/user-attachments/assets/0385deab-cb19-456f-8b88-d6231745c72d" />
+>
 
 
 What I wanted to find out
